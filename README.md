@@ -11,11 +11,13 @@
  ```
   "react-icons": "3.9.0",
    "uuid": "7.0.3"
- ``
+ ```
  - getting problems after adding above src/* files 
  - PROBLEM :  it is giving 'fs' module not found error : 
  ```
  ./node_modules/babel-plugin-styled-components/lib/visitors/displayNameAndId.js:10:0
  Module not found: Can't resolve 'fs'
-
  ```
+### step 3:  Question : 
+-  Why next js run is complaing  'fs' module not found , where as same code base is working here : https://codesandbox.io/s/rough-cherry-qntz3?file=/package.json:229-336
+-  tried all these solution, but still ERROR exists : https://stackoverflow.com/questions/57161839/module-not-found-error-cant-resolve-fs-in
