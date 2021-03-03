@@ -1,17 +1,18 @@
-# with-ts-foldertree
+#  Notes on How this repo is created ...
 
-test ...
-
-### notes
- - this is crated with  Next js  examples/with-typescirpt 
- - then 2 chaneges aded to package.json  from https://codesandbox.io/s/rough-cherry-qntz3?file=/package.json:229-336
+### step 1: Base web site works fine
+ - Step 1:
+ -  first this REPO is crated with  Next js  examples/with-typescirpt 
+ -  after $npm install -> $npm run dev ;  localhost:3000  on browser works fines shows pages
+ 
+ ### step 2: We added files to  /pages folder 
+ - /src/ added to /pages  form /page/src of the snadbox  https://codesandbox.io/s/rough-cherry-qntz3?file=/package.json:229-336
+ -  below chaneges aded to package.json  
  ```
   "react-icons": "3.9.0",
    "uuid": "7.0.3"
- ```
- 
- - the above codesandbox working on codesandbox site
- - we copied the files form pages/src folder of codesandbox to this next js repo
+ ``
+ - getting problems after adding above src/* files 
  - PROBLEM :  it is giving 'fs' module not found error : 
  ```
  ./node_modules/babel-plugin-styled-components/lib/visitors/displayNameAndId.js:10:0
